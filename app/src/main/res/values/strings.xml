@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LiveDeadLife</string>
+    <string name="activiti_main_head_textview">Клеточное наполнение</string>
+    <string name="activiti_main_live_button">соотворить</string>
+    <string name="itemDeadText">Мёртвая</string>
+    <string name="itemDeadTextdicription">или прикидывается</string>
+    <string name="head">💀</string>
+    <string name="fire">💥</string>
+    <string name="itemLiveText">Живая</string>
+    <string name="itemLiveTextdicription">и шевелится!</string>
+    <string name="chiken">🐣</string>
+    <string name="itemLifeText">Жизнь</string>
+    <string name="itemLifeTextdicription">Ку-ку!</string>
+</resources>

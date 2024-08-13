@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="347dp"
+        android:layout_height="80dp"
+        android:background="@drawable/zakrugl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewBackriundItemEsenesn"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/deadimage" />
+
+        <TextView
+            android:id="@+id/itemTypesTextVIew"
+            android:layout_width="104dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBackriundItemEsenesn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/itemDescriptiontextView"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="28dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBackriundItemEsenesn"
+            app:layout_constraintTop_toBottomOf="@+id/itemTypesTextVIew"
+            app:layout_constraintVertical_bias="0.315" />
+
+        <TextView
+            android:id="@+id/smileTextviewItemEsense"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/chiken"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewBackriundItemEsenesn"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewBackriundItemEsenesn"
+            app:layout_constraintStart_toStartOf="@+id/imageViewBackriundItemEsenesn"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBackriundItemEsenesn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
